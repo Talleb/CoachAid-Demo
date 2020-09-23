@@ -1,0 +1,20 @@
+.training {
+    border: 2px solid gray;
+    background: rgb(70, 190, 70) ;
+    width: 28vmax;
+    height: 16vmax;
+    padding: 1.05em;
+    margin-top: 1em;
+    /* margin-right: 5em; */
+    border-radius: 0.2em;
+    display: inline-block;
+    overflow: hidden;
+    /* box-shadow: rgba(128, 128, 128, 0.3) 0.5em 0.5em; */
+    box-shadow: rgba(255, 255, 255, 0.3) 0.4em 0.4em;
+    color: darkslategray;
+ }
+ 
+ li {
+    text-align: left;
+    padding-left: 1em;
+ }

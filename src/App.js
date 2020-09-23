@@ -113,6 +113,10 @@ import LandingPage from "demos/LandingPage";
 import Application from "components/authentication/Application";
 import SignIn from 'components/authentication/SignIn'
 import Signup from "pages/Signup"
+import Dashboard from 'pages/Dashboard'
+import DashTest from 'pages/DashTest'
+import Training from 'components/dashboardLänkar/Training'
+import HoverTest from 'pages/HoverTest'
 
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
@@ -120,6 +124,26 @@ export default function App() {
     <UserProvider>
       <Router>
         <Switch>
+        <Route path="/dashtest">
+            <div className="App">
+              <DashTest/>
+            </div>
+          </Route>
+          <Route path="/training">
+            <div className="App">
+              <Training/>
+            </div>
+          </Route>
+          <Route path="/hovertest">
+            <div className="App">
+              <HoverTest/>
+            </div>
+          </Route>
+        <Route path="/dashboard">
+            <div className="App">
+              <Dashboard/>
+            </div>
+          </Route>
           <Route path="/signup">
             <div className="App">
               <Signup />

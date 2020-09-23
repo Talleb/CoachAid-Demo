@@ -11,8 +11,8 @@ import { Container as ContainerBase, ContentWithVerticalPadding, Content2Xl } fr
 import { SectionHeading } from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
-import logoImageSrc from "images/CoachAid_vit.svg";
 import serverIllustrationImageSrc from "images/whistle.svg";
+import logoImageSrc from "images/CoachAid_vit.svg";
 
 const PrimaryBackgroundContainer = tw.div`-mx-8 px-8 bg-green-900 text-gray-100`;
 const Header = tw(HeaderBase)`max-w-none -mt-8 py-8 -mx-8 px-8`;
